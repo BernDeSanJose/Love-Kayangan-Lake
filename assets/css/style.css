@@ -18,7 +18,7 @@ body {
 body 
     h1, h2 
  {
-    font-family: oswald, sans-serif;
+    font-family: lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -75,17 +75,23 @@ border-bottom: 1px solid #3a3a3a;
 #lake-outer
 {
 
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
+#cover-text, #cover-text h2 
+{
+    color: #fff;
+}
+
 
 #lake-picture 
 {
 
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background: url('../images/lake-picture.avif') no-repeat center center;
+    background: url('../images/lake-picture.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: lake-zoom;
@@ -110,3 +116,27 @@ from{
     transform: scale(1.1);
 }
 }
+
+
+    #cover-text 
+{
+    font-size: 130%;
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 255, 255, 0.382);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+    
+}
+
