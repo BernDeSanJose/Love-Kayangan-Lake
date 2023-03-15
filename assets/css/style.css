@@ -236,3 +236,19 @@ margin-bottom: 50px;
      height: 100%;
      border-radius: 50%;
 }
+
+/* event tours */
+
+#Tours
+
+{
+    
+    background: url('../images/lake-picture.jpeg') no-repeat center center; 
+  background-size: cover;
+background-position: center;
+width: 100%;
+overflow: hidden;
+
+    }
+    
+     
