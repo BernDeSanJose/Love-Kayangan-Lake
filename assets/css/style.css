@@ -71,4 +71,42 @@ border-bottom: 1px solid #3a3a3a;
 {
 border-bottom: 1px solid #3a3a3a;
 }
+/* lake-picture */
+#lake-outer
+{
 
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#lake-picture 
+{
+
+    height: 500px;
+    width: 100%;
+    background: url('../images/lake-picture.avif') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: lake-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+/* creates the level of zoom for lake picture */
+
+    @keyframes lake-zoom {
+    
+from{
+
+    transform: scale(1);
+}
+
+
+    to
+{
+    transform: scale(1.1);
+}
+}
