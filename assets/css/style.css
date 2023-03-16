@@ -2,9 +2,9 @@
 
 
 * {
-margin: 0;
-padding: 0;
-border: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 
 }
 
@@ -14,81 +14,75 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
 /* heading and logo*/
-body 
-    h3, h5 
- {
+body h3,
+h5 {
     font-family: lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
-#logo 
-{
-float: left;
-font-size: 280%;
-margin-left: 30px;
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
 
 }
+
 /* navigation link */
 
 
-#menu
-{
-font-size: 110%;
-letter-spacing: 4px;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
 }
 
-    #menu, #logo 
-    {
+#menu,
+#logo {
 
-        line-height: 75px;
-    }
-
-#menu li
-
-{
-float: right;
-list-style-type: none;
-margin-right: 30px;
+    line-height: 75px;
 }
 
-#menu a
-{
-text-decoration: none;
-color: inherit;
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 
 }
 
 
-#menu a:hover
-
-{
-border-bottom: 1px solid #3a3a3a;
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
 
 }
 
-.active 
-{
-border-bottom: 1px solid #3a3a3a;
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
+
 /* lake-picture */
-#lake-outer
-{
+#lake-outer {
 
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#cover-text, #cover-text h2 
-{
+
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
 
-#lake-picture 
-{
+#lake-picture {
 
     height: 600px;
     width: 100%;
@@ -104,23 +98,21 @@ border-bottom: 1px solid #3a3a3a;
 
 /* creates the level of zoom for lake picture */
 
-    @keyframes lake-zoom {
-    
-from{
+@keyframes lake-zoom {
 
-    transform: scale(1);
+    from {
+
+        transform: scale(1);
+    }
+
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 
-    to
-{
-    transform: scale(1.1);
-}
-}
-
-
-    #cover-text 
-{
+#cover-text {
     font-size: 130%;
     font-family: lato, sans-serif;
     text-transform: uppercase;
@@ -138,131 +130,119 @@ from{
     right: 150px;
 
     position: absolute;
-    
+
 }
+
 /* cate ethos */
 
-#cate-ethos
-{
+#cate-ethos {
     height: 600px;
 }
-#left-about
-{
-padding-top: 30px;
-width: 33%;
-float: left;
-background-color;
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color;
 }
-#right-about
-{
+
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
     background-color;
 }
 
-#center-about
-{
+#center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
-hr
-    {
-    border-top:  1px solid #3a3a3a;
+
+hr {
+    border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
 }
-.left-about-heading
-{
-width: 60%;
-float: right;
-line-height: 20px;
-clear: both;
-margin-bottom: 50px;
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 
 }
-    
 
-.right-about-heading
-{
+
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
-margin-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
-.right-about-heading h3
-{
-    text-align: right;
-
-}
-.right-about-heading p
-{
+.right-about-heading h3 {
     text-align: right;
 
 }
 
-#welcome
-{
-     text-align: center;
-     margin: 20px 0;
-     font-size: 280%;
+.right-about-heading p {
+    text-align: right;
+
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 
 }
 
 
-#circle-container
-{
-     width: 300px;
-     height: 300px;
-     padding: 30px;
-     border-style: solid;
-     border-color: gray;
-     border-width: 1px;
-     border-radius: 50%;
-     margin: 0 auto;
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 
 
 }
 
 
-#circle-cover-bg
-{
-    background: url('../images/lake-picture.jpeg') no-repeat center center; 
-     height: 100%;
-     border-radius: 50%;
+#circle-cover-bg {
+    background: url('../images/lake-picture.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
+
 /* event tours */
 
-#Tours
+#tours {
 
-{
-    
-  background-image: url('../images/kl.avif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
-    }
+    background-image: url('../images/kl.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
 
 
-   
 
-        #tours div
-        {
-          color: #fafafa;
-          background-color: rgba(0, 0, 0, .6);
-          width: 20%;
-         height: 300px;
-         float: left;
-         padding: 30px 0 0 10px;
-         text-align: center;
-         border: 2px solid white;
-
-            }
-    
-     
+#tours div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
