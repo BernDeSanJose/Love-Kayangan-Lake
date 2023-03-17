@@ -143,15 +143,16 @@ h5 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color;
+   
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color;
-}
+   
+
+   }
 
 #center-about {
     width: 33%;
@@ -236,13 +237,41 @@ hr {
 
 
 
-#tours div {
+#tours div 
+{
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
+    height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
+
+/* footer */
+footer
+{
+    height: 150px;
+
+}
+ 
+.social-networks
+{
+    text-align: center;
+}
+
+.social-networks > li
+{
+    display: inline;
+}
+   
+.social-networks i
+{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
