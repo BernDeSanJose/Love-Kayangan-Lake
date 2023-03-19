@@ -240,7 +240,7 @@ hr {
 #tours div 
 {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
@@ -249,6 +249,12 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;  
 }
+
+
+#tours h2
+{
+
+    color: #fafafa;}
 
 /* footer */
 footer
@@ -266,12 +272,12 @@ footer
 {
     display: inline;
 }
-   
+
 .social-networks i
 {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+font-size: 160%;
+margin: 1%;
+padding: 5%;
+color: #3a3a3a;
 }
 
